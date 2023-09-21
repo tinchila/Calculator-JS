@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+        <div class="operacion" id="operacion"></div>
+        <br>
+        <input type="button" value="%" onclick="porcentaje()">
+        <input type="button" value="CE" onclick="borrarNumero()">
+        <input type="button" value="C" onclick="borrarTodo()">
+        <input type="button" value="DEL" onclick="borrar()">
+        <br>
+        <input type="button" value="1/x" onclick="divX()">
+        <input type="button" value="x²" onclick="potencia()">
+        <input type="button" value="√" onclick="square()">
+        <input type="button" value="/" onclick="agregar('/')">
+        <br>
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="*" onclick="agregar('*')">
+        <br>
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="-" onclick="agregar('-')">
+        <br>
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="+" onclick="agregar('+')">
+        <br>
+        <input type="button" value="+/-" onclick="changeValue()">
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="," onclick="agregar(',')">
+        <input type="button" value="=" onclick="calcular()">
+        <br>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
