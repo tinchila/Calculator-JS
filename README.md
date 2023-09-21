@@ -30,7 +30,7 @@ La función `calcular()` se ejecuta cuando se presiona el botón de igual (=) en
 
 Es importante tener en cuenta que el uso de `eval()` puede presentar riesgos de seguridad si se permite que los usuarios ingresen código arbitrario. En este caso, asumimos que el código solo se ejecutará en un entorno seguro.
 
-### `limpiarPantalla()`
+### `borrar()`
 
 La función `limpiarPantalla()` se utiliza para borrar el contenido de la pantalla de la calculadora. Simplemente asigna una cadena vacía al campo `value` del elemento de la pantalla.
 
